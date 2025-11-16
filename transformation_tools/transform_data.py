@@ -10,18 +10,14 @@ except ModuleNotFoundError:
   import uproot3 as uproot
 
 BRANCHES_COINCIDENCES = [
-    'eventID1', 'globalPosX1', 'globalPosY1', 'globalPosZ1', 'time1',
-    'energy1', 'sourcePosX1', 'sourcePosY1', 'sourcePosZ1', 'comptonPhantom1',
-    'comptonCrystal1', 'eventID2', 'globalPosX2', 'globalPosY2', 'globalPosZ2',
-    'time2', 'energy2', 'sourcePosX2', 'sourcePosY2', 'sourcePosZ2',
-    'comptonPhantom2', 'comptonCrystal2', 'eventID3', 'globalPosX3', 'globalPosY3', 'globalPosZ3',
-    'time3', 'energy3', 'sourcePosX3', 'sourcePosY3', 'sourcePosZ3',
-    'comptonPhantom3', 'comptonCrystal3'
+    'eventID1', 'globalPosX1', 'globalPosY1', 'globalPosZ1', 'time1', 'energy1', 'sourcePosX1', 'sourcePosY1', 'sourcePosZ1', 'comptonPhantom1', 'comptonCrystal1', 
+    'eventID2', 'globalPosX2', 'globalPosY2', 'globalPosZ2','time2', 'energy2', 'sourcePosX2', 'sourcePosY2', 'sourcePosZ2','comptonPhantom2', 'comptonCrystal2', 
+    'eventID3', 'globalPosX3', 'globalPosY3', 'globalPosZ3', 'time3', 'energy3', 'sourcePosX3', 'sourcePosY3', 'sourcePosZ3', 'comptonPhantom3', 'comptonCrystal3'
 ]
 ALIASES_COINCIDENCES = [
-    'eventID1', 'x1', 'y1', 'z1', 't1', 'e1', 'sX1', 'sY1', 'sZ1',
-    'comptonPhantom1', 'comptonCrystal1', 'eventID2', 'x2', 'y2', 'z2', 't2',
-    'e2', 'sX2', 'sY2', 'sZ2', 'comptonPhantom2', 'comptonCrystal2'
+    'eventID1', 'x1', 'y1', 'z1', 't1', 'e1', 'sX1', 'sY1', 'sZ1','comptonPhantom1', 'comptonCrystal1', 
+    'eventID2', 'x2', 'y2', 'z2', 't2', 'e2', 'sX2', 'sY2', 'sZ2', 'comptonPhantom2', 'comptonCrystal2', 
+    'eventID3', 'x3', 'y3', 'z3', 't3', 'e3', 'sX3', 'sY3', 'sZ3', 'comptonPhantom3', 'comptonCrystal3'
 ]
 TREE_COINCIDENCES = 'Coincidences'
 
