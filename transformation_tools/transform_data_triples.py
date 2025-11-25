@@ -68,7 +68,7 @@ def get_class_triple(row):
         return 3
 
     return -1
-
+  
 
 def add_features_triple(df):
     """Add features for triple coincidences. Strategy:
